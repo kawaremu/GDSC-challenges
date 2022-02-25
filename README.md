@@ -3,17 +3,18 @@
 [![made-with-Processing](logo_gdsc.png)](https://developers.google.com/community/gdsc/leads)
 
 ## Level *
-● **Challenge 1** : Simple GDSC description web page with HTML and CSS
+✅ ● **Challenge 1** : Simple GDSC description web page with HTML and CSS
 Build a simple web page that contains the description of GDSC
 Use HTML & CSS
 Get creative with the design and use the google colors ( blue,red, green and yellow)
 
 
-● **Challenge 2** : Create a skewed header with CSS
+
+✅ ● **Challenge 2** : Create a skewed header with CSS
 A skewed header is an effect as if you grabbed each corner of the element and pulled
 them along a certain angle.
 
-● **Challenge 3** : Show and hide password in an input
+✅ ● **Challenge 3** : Show and hide password in an input
 Using html and JS , create a page with an input field to type password
 Create a button or a checkbox to toggle password visibility
 
