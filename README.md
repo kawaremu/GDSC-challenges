@@ -14,7 +14,7 @@ Get creative with the design and use the google colors ( blue,red, green and yel
 A skewed header is an effect as if you grabbed each corner of the element and pulled
 them along a certain angle.
 
-🔰 ● **Challenge 3** : Show and hide password in an input
+✅ ● **Challenge 3** : Show and hide password in an input
 Using html and JS , create a page with an input field to type password
 Create a button or a checkbox to toggle password visibility
 

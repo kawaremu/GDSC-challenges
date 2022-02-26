@@ -7,7 +7,7 @@ const password = document.getElementById('password');
 const password2 = document.getElementById('password2');
 
 
-form.addEventListener('click',(e) => {
+form.addEventListener('submit',(e) => {
     e.preventDefault();
     checkInputs();
   });

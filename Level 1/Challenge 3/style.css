@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@93.8,456&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Open+Sans:wdth,wght@93.8,456&display=swap');
 *{
   box-sizing: border-box;
 }
@@ -45,6 +44,7 @@ body{
 .form-control label{
   display: inline-block;
   margin-bottom: 5px;
+  font-family: 'Convergence', sans-serif;
 }
 
 .form-control input{
@@ -57,6 +57,7 @@ body{
   width: 100%;
 }
 
+
 .form-control input:focus {
   outline: none !important;
   border:1px solid #1a73e8;
@@ -64,7 +65,7 @@ body{
 }
 
 
-.form-control i{
+.form-control i:not(.bi-eye-slash){
   position: absolute;
   top:40px;
   right: 10px;
@@ -121,6 +122,6 @@ the sucess or error of the inputs */
   visibility: visible;
 }
 
-i.fa-eye{
-  color : blue;  
+.bi bi-eye-slash{
+
 }
