@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="fontawesome-free-6.0.0-desktop/">
-  <title>Developer Profile</title>
   <script src="https://kit.fontawesome.com/dbc204a04c.js" crossorigin="anonymous"></script>
+
+  
+  <title>Developer Profile</title>
 </head>
 <body>
   <div class="container">
@@ -17,8 +19,8 @@
       <!-- The form has id to target it in JS, and class for CSS -->
 
       <!-- Username info -->
-      <form action="" class="form" id="form">
-        <div class="form-control success">
+      <form class="form" id="form">
+        <div class="form-control">
           <label for="">Username</label>
           <input type="text" id="username" placeholder="Username">
           <i class="fas fa-check-circle"></i>
@@ -27,7 +29,7 @@
         </div>
 
         <!-- Email info -->
-        <div class="form-control error">
+        <div class="form-control">
           <label for="">Email</label>
           <input type="email" id="email" placeholder="Username@email.com">
           <i class="fas fa-check-circle"></i>
@@ -38,10 +40,11 @@
         <!-- Password chosen -->
         <div class="form-control">
           <label for="">Password</label>
-          <input type="password" id="password" placeholder="Password">
           <i class="fas fa-check-circle"></i>
           <i class="fa-solid fa-circle-exclamation"></i>
+          <input type="password" id="password" placeholder="Password">
           <small>Error message</small>
+          
         </div>
 
         <div class="form-control">
@@ -58,4 +61,5 @@
     </div>
   </div>
 </body>
+<script type="text/javascript" src="validation.js"></script>
 </html>
