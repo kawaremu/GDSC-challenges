@@ -65,3 +65,6 @@ You can choose a gdsc event date
 The page should display a dynamic countdown in other terms, in the script update the
 countdown every one second.
 
+# After the challenges
+
+Ressources for JS :  https://www.w3schools.com/js/

@@ -57,7 +57,7 @@ function checkInputs(){
   }else if(passwordValue !== password2Value){
     setErrorFor(password2, 'Passwords do not match')
   }else{
-    setSuccessFor(password);
+    setSuccessFor(password2);
   }
 }
 

@@ -65,11 +65,16 @@ body{
 }
 
 
-.form-control i:not(.bi-eye-slash){
+.form-control i{
+  z-index: 1000;
   position: absolute;
-  top:40px;
+  top: 40px;
   right: 10px;
   visibility: hidden;
+}
+
+.form-control .eye i{
+  position: relative;
 }
 
 .form-control small{
@@ -120,8 +125,4 @@ the sucess or error of the inputs */
 .form-control.form-control.error i.fa-circle-exclamation{
   color: #EA4335;
   visibility: visible;
-}
-
-.bi bi-eye-slash{
-
 }
